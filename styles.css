@@ -114,6 +114,8 @@ main{
     padding-bottom: 30px;
     text-align: center;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .main-exchange-container--title{
@@ -164,7 +166,7 @@ main{
     min-width: 235px;
     max-width: 500px;
     height: 360px;
-    margin: 0 48px;
+    margin: 0 50px;
     font-family: 'Inter', sans-serif;
     margin-bottom: 20px;
     scroll-snap-align: center;
